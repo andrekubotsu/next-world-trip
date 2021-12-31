@@ -2,7 +2,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import logo from "../public/img/logo.png";
+import logo from "../../public/img/logo.png";
 
 const Home: NextPage = () => {
   return (

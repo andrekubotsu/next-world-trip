@@ -1,7 +1,7 @@
 import { Box, Flex } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import BannerHeader from "./components/BannerHeader";
-import Header from "./components/Header";
+import BannerHeader from "../components/BannerHeader";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (

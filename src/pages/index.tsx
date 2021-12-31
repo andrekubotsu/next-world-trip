@@ -1,14 +1,14 @@
 import { Box, Flex } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import logo from "../../public/img/logo.png";
+import BannerHeader from "./components/BannerHeader";
+import Header from "./components/Header";
 
 const Home: NextPage = () => {
   return (
-    <Box mx="auto" maxWidth="1440px">
-      <Flex bgColor="gray.100">
-        <Image src={logo} alt="Logo Worldtrip" width="185px" height="46px" />
+    <Box mx="auto" maxWidth="1440px" bg="white">
+      <Flex direction="column">
+        <Header />
+        <BannerHeader />
       </Flex>
     </Box>
   );

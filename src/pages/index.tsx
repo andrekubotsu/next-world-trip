@@ -14,7 +14,7 @@ import TravelTypes from "../components/TravelTypes";
 const Home: NextPage = () => {
   return (
     <Box mx="auto" maxWidth="1440px" bg="white">
-      <Flex direction="column">
+      <Flex direction="column" align="center">
         <Header />
         <BannerHeader />
         <Flex align="center" w="100%" justify="space-between" px="36" py="20">
@@ -24,6 +24,11 @@ const Home: NextPage = () => {
           <TravelTypes icon={museumIcon} text="clássico" />
           <TravelTypes icon={earthIcon} text="e mais..." />
         </Flex>
+        <Box
+          w="90px"
+          borderBottom="2px"
+          borderBottomColor="gray.headingsText"
+        ></Box>
       </Flex>
     </Box>
   );
